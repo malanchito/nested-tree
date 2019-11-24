@@ -10,6 +10,19 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@types/koa": "^2.0.52",
+    "@types/koa-bodyparser": "^4.3.0",
+    "@types/koa-multer": "^1.0.0",
+    "@types/koa-router": "^7.0.42",
+    "class-validator": "^0.8.1",
+    "koa": "^2.11.0",
+    "koa-bodyparser": "^4.2.1",
+    "koa-multer": "^1.0.2",
+    "koa-router": "^7.4.0",
+    "pg": "^7.14.0",
+    "routing-controllers": "^0.7.7",
+    "ts-node": "^8.5.2",
+    "typeorm": "^0.2.20",
     "typescript": "^3.7.2"
   }
 }
