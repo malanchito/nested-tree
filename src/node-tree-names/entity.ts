@@ -11,11 +11,11 @@ export default class NodeName extends BaseEntity {
 
   @IsString()
   @Column('text', {nullable: false})
-  level: string
+  name: string
 
   @IsString()
   @Column('text', {nullable: false})
-  ileft: string
+  language: string
 
   @ManyToOne(() => NodeTree, (node) => node.names)
   node: NodeTree

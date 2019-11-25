@@ -18,18 +18,8 @@ export default class NodeTree extends BaseEntity {
 
   @IsInt()
   @Min(1)
-  @Column('number', {nullable: false})
+  @Column('int4', {nullable: false})
   level: number
-
-  @IsInt()
-  @Min(1)
-  @Column('number', {nullable: false})
-  ileft: number
-
-  @IsInt()
-  @Min(1)
-  @Column('number', {nullable: false})
-  iright: number
 
   @OneToMany(() => NodeName, (name) => name.node)
   names: NodeName[]
